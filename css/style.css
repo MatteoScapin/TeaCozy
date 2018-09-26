@@ -1,0 +1,36 @@
+/*General*/
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+
+a {
+  color: seashell;
+}
+
+/*Navbar*/
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+}
+
+.navbar nav span {
+  margin: auto 10px;
+}
+
+.navbar img {
+  height: 50px;
+  margin-left: 10px;
+}
