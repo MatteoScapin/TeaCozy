@@ -34,3 +34,17 @@ a {
   height: 50px;
   margin-left: 10px;
 }
+
+/*Header*/
+#mission {
+  display: flex;
+  align-items: center;
+  background: url(../img/img-mission-background.jpg) no-repeat center;
+  height: 700px;
+  margin-top: 69px;
+}
+
+.heading {
+  background-color: black;
+  width: 100%;
+}
