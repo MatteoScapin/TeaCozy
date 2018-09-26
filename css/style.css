@@ -37,11 +37,18 @@ a {
 
 /*Header*/
 #mission {
-  display: flex;
-  align-items: center;
   background: url(../img/img-mission-background.jpg) no-repeat center;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+.header-container {
   height: 700px;
   margin-top: 69px;
+  display: flex;
+  align-items: center;
 }
 
 .heading {
@@ -69,4 +76,14 @@ a {
 
 figure {
   margin: 10px 0;
+}
+
+/*Second section*/
+#locations {
+  height: 500px;
+  background: url(../img/img-locations-background.jpg) no-repeat center;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
 }
