@@ -87,3 +87,24 @@ figure {
        -o-background-size: cover;
           background-size: cover;
 }
+
+#locations > h2 {
+  padding-top: 50px;
+  margin-bottom: 0;
+}
+
+.locations-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-address {
+  width: 300px;
+  margin: 15px 20px;
+  background-color: black;
+  opacity: 1;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+}
