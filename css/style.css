@@ -59,7 +59,8 @@ a {
 /*First section*/
 #featured {
   max-width: 1000px;
-  margin: 50px auto;
+  margin: 0 auto;
+  padding: 50px;
 }
 
 .featured-img {
@@ -80,7 +81,8 @@ figure {
 
 /*Second section*/
 #locations {
-  height: 500px;
+  min-height: 500px;
+  padding: 50px;
   background: url(../img/img-locations-background.jpg) no-repeat center;
   -webkit-background-size: cover;
      -moz-background-size: cover;
@@ -89,12 +91,12 @@ figure {
 }
 
 #locations > h2 {
-  padding-top: 50px;
   margin-bottom: 0;
 }
 
 .locations-cards {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -107,4 +109,14 @@ figure {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-around;
+}
+
+/*Footer*/
+footer {
+  height: 200px;
+}
+
+footer > h5 {
+  text-align: left;
+  margin-left: 20px;
 }
